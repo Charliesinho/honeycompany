@@ -1,0 +1,33 @@
+#aboutParent {
+    width: calc(100% - 40px);
+    text-align: center;
+    padding: 0 20px;
+    background-color: #fedbcc;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 155, 131);
+        height: 90%;
+        border-radius: 10px;
+    }
+
+    h1 {
+        margin: 0;
+        font-weight: 500;
+    }
+
+    p  {
+        text-align: justify;
+        width: 80%;
+        margin-top: 40px;
+    }
+}

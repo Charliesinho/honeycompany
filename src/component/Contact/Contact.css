@@ -1,0 +1,64 @@
+.contact {
+    width: 100%;
+    height: 300px;
+    background-color: #fedbcc;
+
+    display: flex;
+    flex-direction: column;
+        
+    font-weight: bolder;
+    color: rgb(255, 155, 131);
+
+}
+
+.inputSectionContact{
+
+    width: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.inputContact{
+    width: 40%;
+    height: 25px;
+    background-color: white;
+    border-radius: 50px;
+    border: solid 2px rgb(255, 155, 131);;
+    color: black;
+    padding-left: 20px;
+
+}
+
+input::placeholder{
+color: rgb(61, 55, 55);
+
+}
+
+.sendContact {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     width: 25vw;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        font-size: 13px;
+        background-color: transparent;
+        border: 1px solid rgb(255, 155, 131);
+        color: rgb(255, 155, 131);
+}
+
+
+
+
